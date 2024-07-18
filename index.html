@@ -16,7 +16,7 @@
   <body>
     <header>
       <!--Nav Bar ส่วนนำทาง -->
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Logo</a>
           <button
@@ -30,7 +30,9 @@
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="technology.html">โค้ดดิ้งเปลี่ยนโลก</a>
+                <a class="nav-link" href="technology.html"
+                  >โค้ดดิ้งเปลี่ยนโลก</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="carrer.html">โค้ดดิ้งกับอาชีพ</a>
@@ -47,15 +49,63 @@
                   >เกี่ยวกับฉัน</a
                 >
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="resume.html">ประวัติส่วนตัว</a></li>
-                  <li><a class="dropdown-item" href="education.html">การศึกษา</a></li>
-                  <li><a class="dropdown-item" href="contact.html">การติดต่อ</a></li>
+                  <li>
+                    <a class="dropdown-item" href="resume.html"
+                      >ประวัติส่วนตัว</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="education.html">การศึกษา</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="contact.html">การติดต่อ</a>
+                  </li>
                 </ul>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+
+      <!--Banner-->
+      <!-- Carousel -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/banner-1.png"
+              alt="Banner 1"
+              class="d-block w-100"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/banner-2.png"
+              alt="Banner 2"
+              class="d-block w-100"
+            />
+          </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
     </header>
     <main></main>
     <footer>
