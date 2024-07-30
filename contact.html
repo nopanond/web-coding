@@ -1,91 +1,242 @@
-<!DOCTYPE html
-  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>เกี่ยวกับฉัน (About Me)</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Coding ภาษาแห่งอนาคต</title>
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css2?family=Trirong:wght@300&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="images/favicon.ico">
+    <!-- CSS-->
+    <link href="css/style.css" rel="stylesheet" />
 
-</head>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
-
-  <div class="head">
-    <div class="header">
-      <img class="img-head" src="images/banner-coding.png" alt="banner-coding" width="1000" />
-    </div>
-  </div>
-
-  <div class="navigator">
-    <div class="menubar">
-      <ul class="ul-menu">
-        <li class="li-menu"><a class="active" href="index.html">Home</a></li>
-        <li class="li-menu"><a href="technology.html">โค้ดดิ้งเปลี่ยนโลก</a></li>
-        <li class="li-menu"><a href="career.html">โค้ดดิ้งกับอาชีพ</a></li>
-        <li class="li-menu"><a href="benefit.html">ประโยชน์ของโค้ดดิ้ง</a></li>
-        <li class="li-menu"><a href="applications.html">Applictions</a></li>
-        <!-- 
-        <li class="li-menu"><a href="programmer.html">โปรแกรมเมอร์สายต่างๆ</a></li> 
-        <li class="dropdown">
-          <a href="applications.html" class="dropbtn">Applications</a>
-          <div class="dropdown-content">
-            <a href="applications.html#scratch">Scratch</a>
-            <a href="applications.html#microbit">Micro:bit</a>
-            <a href="applications.html#python">Python</a>
+  <body>
+    <header>
+      <!--Nav Bar ส่วนนำทาง -->
+      <nav
+        class="navbar navbar-expand-sm bg-secondary navbar-dark justify-content-center"
+      >
+        <div class="navbar-nav">
+          <a class="navbar-brand" href="index.html"
+            ><img src="images/logo.png" alt="Logo" height="50" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">หน้าหลัก</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="technology.html">คำศัพท์</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="carrer.html">องค์ประกอบ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="benefit.html">กระบวนการพัฒนา</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  >เกี่ยวกับฉัน</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="resume.html"
+                      >ประวัติส่วนตัว</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="education.html">การศึกษา</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="contact.html">การติดต่อ</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
-        </li>
-        -->
-        <li class="li-menu" style="float:right"><a href="about.html">Layout</a></li>
-      </ul>
-    </div>
-  </div>
+        </div>
+      </nav>
 
-  <div class="container">
-    <div class="sidebar-right">
-      <p class="list-group-item-head">Menu</p>
-      <a class="list-group-item" href="technology.html">โค้ดดิ้งเปลี่ยนโลก</a><hr />
-      <a class="list-group-item" href="career.html">โค้ดดิ้งกับอาชีพ</a><hr />
-      <a class="list-group-item" href="benefit.html">ประโยชน์ของโค้ดดิ้ง</a><hr />
-      <!-- <a class="list-group-item" href="programmer.html">โปรแกรมเมอร์สายต่างๆ</a><hr /> -->
-      <p>Applications</p>
-      <ul>
-        <li><a href="applications.html#scratch">Scratch</a> </li>
-        <li><a href="applications.html#microbit">Micro:bit</a> </li>
-        <li><a href="applications.html#python">Python</a> </li>
-      </ul>
-      <hr>
-    </div>
+      <!--Banner-->
+      <!-- Carousel -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/banner-1.png"
+              alt="Banner 1"
+              class="d-block w-100"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/banner-2.png"
+              alt="Banner 2"
+              class="d-block w-100"
+            />
+          </div>
+        </div>
 
-    <div class="content">
-      <p><b>โค้ดดิ้ง (Coding)</b> คือการป้อนคำสั่งด้วยภาษาคอมพิวเตอร์ต่างๆ เพื่อให้คอมพิวเตอร์ทำงานตามที่ต้องการ
-        เมื่อโค้ดดิ้งเสร็จแล้ว เราจะนำโค้ดที่ได้ไปทดสอบ และประมวลผลดูว่าโปรแกรมได้ทำงานตามคำสั่งหรือไม่
-        เพื่อนำโปรแกรมไปใช้งานต่อไป</p>
-      <p><b>โปรแกรมคอมพิวเตอร์ (Computer Programming)</b> คือ
-        ชุดคำสั่งที่สั่งให้คอมพิวเตอร์สามารถทำงานได้ตรงตามความต้องการและความถูกต้อง เช่น
-        โปรแกรมคอมพิวเตอร์สำหรับสั่งให้คอมพิวเตอร์พิมพ์เอกสาร โปรแกรมสำหรับวาดภาพ เป็นต้น</p>
-      <p><b>การเขียนโปรแกรม (Programming)</b> คือ
-        การเขียนชุดคำสั่งด้วยภาษาโปรแกรมที่สั่งให้คอมพิวเตอร์สามารถทำงานได้ตรงตามความต้องการ
-        และสามารถทำงานได้อย่างถูกต้อง ซึ่งเป็นการกำหนดขั้นตอนให้กับคอมพิวเตอร์ทำงานตามลำดับและรูปแบบที่กำหนดไว้</p>
-      <img src="images/coding-is.png" alt="โค้ดดิ้งคืออะไร">
+        <!-- Left and right controls/icons -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </header>
+    <!-- Header Section -->
+    <header class="bg-primary text-white text-center py-5">
+      <div class="container">
+        <h1>Welcome to My Page</h1>
+        <p class="lead">Get to know more about me</p>
+      </div>
+    </header>
 
-    </div>
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="your-photo.jpg"
+              class="img-fluid rounded-circle"
+              alt="Your Photo"
+            />
+          </div>
+          <div class="col-md-6">
+            <h2>About Me</h2>
+            <p>
+              Hello! My name is [Your Name]. I am a [Your Profession]. I have a
+              passion for [Your Passion].
+            </p>
+            <p>
+              I have [X] years of experience in [Your Field], and I have worked
+              on various projects related to [Related Topics].
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Skills Section -->
+    <section id="skills" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center">Skills</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Skill 1</h3>
+            <p>Description of skill 1.</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Skill 2</h3>
+            <p>Description of skill 2.</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Skill 3</h3>
+            <p>Description of skill 3.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center">Contact Me</h2>
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="4"
+                  placeholder="Enter your message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <div class="container">
+        <p>
+          &copy; 2024 นพอนนต์ ชาครจิรเกียรติ. All rights reserved.
+          เว็บไซต์นี้จัดทำขึ้นเพื่อประกอบการเรียนการสอนเท่านั้น
+        </p>
+      </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
 
-  <div class="spacing">
-  </div>
-
-  <div class="footer">
-    จัดทำโดย นายนพอนนต์ ชาครจิรเกียรติ &copy; จัดทำขึ้นเพื่อใช้ประกอบการเรียนการสอน
-  </div>
-
-</body>
-
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
